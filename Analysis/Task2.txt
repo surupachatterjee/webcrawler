@@ -1,0 +1,16 @@
+Task2 : Focused BFS Crawling
+
+1.	The keywords "moon" and "lunar" are matched against the hyper-link string or the anchor text in an anchor tag
+	using a search method available in regular expression library (re in python) which checks to find the 
+	given keywords ("moon" ,"lunar") using a regular expression 
+	Ex.	re.search(r'.*{0}.*'.format('moon'), seed_url, re.IGNORECASE) searches the keyword 'moon' in the raw format
+	of the given string to be matched with the text in the seed_url by ignoring cases.
+	
+2.	If a URL hyper-link or its anchor text matches with any of these given keywords , then those URLs are added to the 
+	list of BFSFocusedUrls.txt, but if the url has no such match, then  the url is further crawled to find all the 
+	links that match  the pattern.
+
+3.	The links are crawled starting at depth 1 (seed), if the seed has a match with the pattern , then the it is considered,
+	and if it does not have a match, it is crawled to find all the urls that match the pattern.Then at depth 2, these urls(urls matched pattern)
+	are crawled and continues until a depth of 6 or max url count of 1000 is reached.
+

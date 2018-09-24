@@ -1,0 +1,27 @@
+Results Comparison between URLs crawled using BFS and DFS Search techniques:
+
+URL OVERLAP : 31 URLs overlapped in BFS and DFS Crawl.
+
+QUALITY AND EFFECIENCY ASPECT : 
+					Runtime for BFS  : ~ 24.03 mins 
+					Maximum Depth Reached  : 3
+					Runtime for DFS  : ~ 24.33 mins
+					Maximum Depth Reached : 6
+					
+Efficiency (in terms of time required) :  BFS and DFS crawl takes almost same time
+					  to crawl the web and fetch the links
+					  where no search is been performed
+												
+																						
+Efficiency (in terms of proximity to search topic): Since BFS searches at shallower depth	
+   						    the topics searched are closely related	
+						    in case of BFS but not the same in DFS
+					
+
+COVERAGE OF CRAWLED TOPICS : The URLs  crawled in BFS are at a shallower depth and therefore 
+			     very closely related to the topic of search i.e solar eclipse
+			     whereas the URLs crawled in DFS deviate from the given topic.
+			     Analyzing starting 10-15 URLs in BFS Crawl suggests that the URLs contain topics
+			     such as 'Solar_prominence', 'Corona', 'Moon','Occultation', 'Sun'
+			     and so on whereas topics that DFS Crawl gives are 'Invention','Rhodes','Midsummer'
+       			    'Arabic_language' deviate the focus of the topic been searched
