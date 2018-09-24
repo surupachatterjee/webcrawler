@@ -1,7 +1,7 @@
 ASSIGNMENT 1:
 Goal:Implementing your own web crawler.Performing focused crawling
 
-==========================================================================================================================================
+===================================================================================================================================
 TASK DESCRIPTION:
 
 TASK1 : 
@@ -30,14 +30,14 @@ BFSFocusedCrawler:
 		The maximum crawls end with the crawler reaching a depth of 6 or URL's crawled reaches 1000(whichever is reached first).
 		The list of 1000 URLs crawled are added to a file "BFSFocusedUrls.txt"
 
-=============================================================================================================================================
+======================================================================================================================================
 GENERAL SETUP INSTRUCTIONS: (SPECIFIC TO WINDOWS)
 	1. Download Python version 3.6 from https://www.python.org/downloads/
 	2. Set the environment variable PATH as Directory for python scripts or your home directory for python
 	3. Install BeautifulSoup4 using the command 'pip install beautifulsoup4'
 	4  Other Libraries to be imported  : 'requests' , 're' ,'urllib.parse','time'
 
-=============================================================================================================================================
+=====================================================================================================================================
 	
 PROGRAM SPECIFIC INSTRUCTIONS: 
 	1.Create a folder where you would keep the .py files
@@ -45,7 +45,7 @@ PROGRAM SPECIFIC INSTRUCTIONS:
 	2.running the program  (BFSCrawler.py , DFSCrawler.py ,BFSFocussedCrawler.py ) will generate the text files(BFSUrls.txt , DFSUrls.txt
 	  and BFSFocusedUrls.txt)
 	
-=============================================================================================================================================
+=====================================================================================================================================
 
 RESULTS: 
 	1. BFSCrawler.py would generate a directory named 'BFSCrawler' -> which will contain another directory 'RawHTML'(contains
@@ -58,7 +58,7 @@ RESULTS:
 	MAXIMUM DEPTH REACHED - 6
 	3. BFSFocussedCrawler.py would generate a directory named 'BFSFocusedCrawler' -> 'BFSFocusedUrls.txt'
 	MAXIMUM DEPTH REACHED - 4
-=============================================================================================================================================
+	
 CITATIONS:
 
 	1. https://www.crummy.com/software/BeautifulSoup/bs4/doc	
